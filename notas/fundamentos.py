@@ -98,4 +98,21 @@ y = x
 z = 3
 print( x is z)
 print(y is not z)
+lista_a = [1,2,3]
+lista_b = lista_a
+lista_c = [1,2,3]
+print(lista_a is lista_b)
+print(lista_a is lista_c)
 
+        #BUILTINS
+print(dir()) # ver todas as variaveis globais 
+
+        # CONVERSÃO DE TIPOS 
+a= 2
+b ='3'
+print(type(a))
+print(type(b))
+print(a + int(b))
+print(str(a) +b )
+
+  
