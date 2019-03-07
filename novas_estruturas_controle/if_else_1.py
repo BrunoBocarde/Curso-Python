@@ -26,6 +26,6 @@ def nota_conceito(valor):
         return 'Nota invalida '
 
     if __name__ == '__main__':
-    valor_informado = input('Nota do aluno : ')
-    conceito = nota_conceito(valor_informado)
-    print(conceito)
+        valor_informado = input('Nota do aluno : ')
+        conceito = nota_conceito(valor_informado)
+        print(conceito)

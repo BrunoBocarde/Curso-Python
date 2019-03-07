@@ -1,5 +1,5 @@
 import math
-import sys
+import sys # com esse import voce consegue ler o argumento passado
 
 
 def circulo(raio):
@@ -8,5 +8,5 @@ def circulo(raio):
 
 if __name__ == '__main__':
     raio = sys.argv[1]
-    area =  circulo(raio) # chamando a função 
+    area = circulo(raio) # chamando a função
     print('Area do circulo é: ',area)
